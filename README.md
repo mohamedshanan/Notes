@@ -11,3 +11,7 @@ https://github.com/okaryo/CleanArchitectureTodoAppTrainingWithFlutter
 WEB ANDROID IOS MACOS
 
 #Screenshots
+|                                               | 
+| :-------------------------------------------: | 
+| <Image src="screenshots/0.png" > | 
+| <Image src="screenshots/1.png" >  | 

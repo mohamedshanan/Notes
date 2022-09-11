@@ -3,7 +3,9 @@ A simple Flutter Clean Architected application containing a web portal consuming
 
 # INSTRUCTIONS TO RUN
 - Set up and run Docker
-- Open the terminal from the application root folder and run the run.sh script, it should build and run the docker container.
+- Either 
+ - Use “docker-compose up” 
+ - or Open the terminal from the application root folder and run the run.sh script, it should build and run the docker container.
 - Now, if you navigate to http://localhost:8080, you should see the flutter app.
 
 # Platforms

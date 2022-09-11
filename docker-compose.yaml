@@ -1,0 +1,27 @@
+version: "3.6"
+services:
+  flutter-web:
+    command:
+      - nginx
+      - -g
+      - daemon off;
+    container_name: flutter-container
+    entrypoint:
+      - /docker-entrypoint.sh
+    environment:
+      - PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+      - NGINX_VERSION=1.21.1
+      - NJS_VERSION=0.6.1
+      - PKG_RELEASE=1
+    hostname: 43ebf128d27c
+    image: flutter-web
+    ipc: private
+    labels:
+      maintainer: NGINX Docker Maintainers <docker-maint@nginx.com>
+    logging:
+      driver: json-file
+      options: {}
+    mac_address: 02:42:ac:11:00:02
+    network_mode: bridge
+    ports:
+      - 8080:80/tcp

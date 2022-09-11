@@ -17,8 +17,8 @@ WEB ANDROID IOS MACOS
 | <Image src="screenshots/1.png" >  | 
 
 # REFERENCES
-https://github.com/ShadyBoukhary/flutter_clean_architecture
-https://codewithandrea.com/videos/starter-architecture-flutter-firebase/#stream-based-architecture
-https://github.com/imSanjaySoni/NoteApp-Clean-Architecture
-https://github.com/okaryo/CleanArchitectureTodoAppTrainingWithFlutter
-https://medium.com/@kevinwilliams.dev/building-a-flutter-web-container-3b13f4b2bd0c
+- https://github.com/ShadyBoukhary/flutter_clean_architecture
+- https://codewithandrea.com/videos/starter-architecture-flutter-firebase/#stream-based-architecture
+- https://github.com/imSanjaySoni/NoteApp-Clean-Architecture
+- https://github.com/okaryo/CleanArchitectureTodoAppTrainingWithFlutter
+- https://medium.com/@kevinwilliams.dev/building-a-flutter-web-container-3b13f4b2bd0c
